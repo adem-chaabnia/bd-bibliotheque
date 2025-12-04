@@ -41,7 +41,7 @@ Remarque : assurez-vous d'avoir sélectionné le bon schéma (base) dans l'inter
 
 ## Conformité au cahier des charges
 
-Le cahier des charges fournit en cours (gestion d'ouvrages, exemplaires, cotes hiérarchiques, revues, lecteurs, emprunts, demandes, suggestions, règles d'indemnité et limites d'emprunt) est explicitement pris en compte. Pour chaque exigence, voir la section « Mapping exigences → implémentation » du `rapport.md`.
+Le cahier des charges fournit en cours (gestion d'ouvrages, exemplaires, cotes hiérarchiques, revues, lecteurs, emprunts, demandes, suggestions, règles d'indemnité et limites d'emprunt) est explicitement pris en compte. Pour plus de détail, voir  `rapport.md`.
 
 ## Auteurs
 
