@@ -45,4 +45,4 @@ Le cahier des charges fournit en cours (gestion d'ouvrages, exemplaires, cotes h
 
 ## Auteurs
 
-Projet réalisé dans le cadre du Master TIC. Auteur : Adem Chaabnia.
+Projet réalisé dans le cadre du Master TIC. Auteur : Adem CHAABNIA.
