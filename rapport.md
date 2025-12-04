@@ -1,6 +1,6 @@
-# Rapport — Base de données d'une bibliothèque
+# Rapport - Base de données d'une bibliothèque
 
-Master TIC — Module : Systèmes d'information et bases de données
+Master TIC - Module : Systèmes d'information et bases de données
 
 ## Résumé
 
@@ -66,4 +66,4 @@ Le modèle est évolutif et les scripts fournis permettent de tester et valider 
 - Modèles : `models/MCD.md`, `models/MLD.md` et les images `models/mcd.png`, `models/mld.png`.
 - Scripts SQL : `sql/create_tables.sql`, `sql/inserts.sql`, `sql/selects.sql`.
 
-Auteur : Adem Chaabnia
+Auteur : Adem CHAABNIA
