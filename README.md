@@ -19,9 +19,9 @@ Ce dépôt rassemble le travail réalisé pour le module « Systèmes d'informat
 2. Dans Workbench, créez le schéma `bibliotheque` si nécessaire (Create a new schema), ou exécutez les lignes commentées en tête de `sql/create_tables.sql` (elles proposent une création du schéma avec UTF8MB4).
 
 3. Ouvrez et exécutez dans l'ordre :
-  - `sql/create_tables.sql` — création des tables et contraintes.
-  - `sql/inserts.sql` — données d'exemple.
-  - `sql/selects.sql` — requêtes de vérification.
+  - `sql/create_tables.sql` - création des tables et contraintes.
+  - `sql/inserts.sql` - données d'exemple.
+  - `sql/selects.sql` - requêtes de vérification.
 
 4. Vérifiez, via l'interface de Workbench, que le schéma sélectionné est bien `bibliotheque` avant d'exécuter chaque fichier.
 
