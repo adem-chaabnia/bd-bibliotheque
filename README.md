@@ -14,17 +14,16 @@ Ce dépôt rassemble le travail réalisé pour le module « Systèmes d'informat
 
 ## Démarrage rapide (MySQL Workbench)
 
-1. Ouvrez MySQL Workbench et créez ou sélectionnez une connexion vers votre serveur MySQL.
+1. Ouvrez MySQL Workbench et créez/choisissez une connexion vers votre serveur MySQL.
 
-2. Créez une nouvelle base de données (schéma) si besoin : utilisez l'interface « Create a new schema » ou exécutez le script `create_tables.sql` dans l'éditeur SQL de Workbench.
+2. Dans Workbench, créez le schéma `bibliotheque` si nécessaire (Create a new schema), ou exécutez les lignes commentées en tête de `sql/create_tables.sql` (elles proposent une création du schéma avec UTF8MB4).
 
-3. Pour exécuter un script SQL dans Workbench :
-   - Menu : File > Open SQL Script... et ouvrez `sql/create_tables.sql`.
-   - Cliquez sur le bouton d'exécution (icône d'éclair) pour exécuter le script dans la connexion/schéma sélectionné(e).
+3. Ouvrez et exécutez dans l'ordre :
+  - `sql/create_tables.sql` — création des tables et contraintes.
+  - `sql/inserts.sql` — données d'exemple.
+  - `sql/selects.sql` — requêtes de vérification.
 
-4. Répétez la même opération pour `sql/inserts.sql` afin d'insérer les données d'exemple.
-
-5. Ouvrez `sql/selects.sql` dans Workbench pour exécuter les requêtes de test et vérifier la structure/les données.
+4. Vérifiez, via l'interface de Workbench, que le schéma sélectionné est bien `bibliotheque` avant d'exécuter chaque fichier.
 
 Remarque : assurez-vous d'avoir sélectionné le bon schéma (base) dans l'interface de Workbench avant d'exécuter les scripts.
 
@@ -40,6 +39,10 @@ Remarque : assurez-vous d'avoir sélectionné le bon schéma (base) dans l'inter
   - `inserts.sql` : scripts d'insertion de données d'exemple
   - `selects.sql` : requêtes et tests d'interrogation
 
+## Conformité au cahier des charges
+
+Le cahier des charges fournit en cours (gestion d'ouvrages, exemplaires, cotes hiérarchiques, revues, lecteurs, emprunts, demandes, suggestions, règles d'indemnité et limites d'emprunt) est explicitement pris en compte. Pour chaque exigence, voir la section « Mapping exigences → implémentation » du `rapport.md`.
+
 ## Auteurs
 
-Projet réalisé dans le cadre du Master TIC. Auteur : Adem CHAABNIA.
+Projet réalisé dans le cadre du Master TIC. Auteur : Adem Chaabnia.
