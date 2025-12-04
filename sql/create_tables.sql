@@ -1,3 +1,8 @@
+-- Optional: create the database if it does not exist and switch to it.
+-- In MySQL Workbench you can run the following lines (they are commented out here):
+-- CREATE DATABASE IF NOT EXISTS `bibliotheque` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+-- USE `bibliotheque`;
+
 CREATE TABLE ouvrage (
     id_ouvrage INT PRIMARY KEY AUTO_INCREMENT,
     titre VARCHAR(255) NOT NULL,
